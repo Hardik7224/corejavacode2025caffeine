@@ -1,4 +1,4 @@
-package section7_Print_function;
+package section7_Printing_and_String_class;
 
 public class Example2 {
     // Understanding Escape Sequence Characters

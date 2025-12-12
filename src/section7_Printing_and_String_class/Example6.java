@@ -1,4 +1,4 @@
-package section7_Print_function;
+package section7_Printing_and_String_class;
 
 public class Example6 {
     public static void main(String[] args){
