@@ -19,10 +19,8 @@ public class Example0 {
         lsNum1 = 32000;
         lnNum1 = 330000;
         llNum1 = 20000000000L;
-
         lfNum1 = 12.1212121212121212F;
         ldNum1 = 12.121212121212121;
-
         cGrade = 'A';
         sName = "Java Full stack means S2P";
 

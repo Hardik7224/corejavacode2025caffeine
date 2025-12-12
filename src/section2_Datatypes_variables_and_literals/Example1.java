@@ -36,6 +36,5 @@ public class Example1 {
         System.out.println(Character.MIN_VALUE);
         System.out.println(Character.BYTES);
         System.out.println(Character.SIZE);
-
     }
 }

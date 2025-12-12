@@ -13,5 +13,6 @@ public class Example8 {
         System.out.println(Integer.toBinaryString(a)); // Binary Number
         System.out.println(Integer.toOctalString(a)); // Octal
         System.out.println(Integer.toHexString(a));  // Hexadecimal
+
     }
 }

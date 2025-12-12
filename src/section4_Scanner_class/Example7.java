@@ -9,6 +9,6 @@ public class Example7 {
             System.out.println("Enter the boolean value : ");
             b1 = Input.nextBoolean();
 
-            System.out.println("The Value Of Boolean B1 : " + b1);
+            System.out.println("The Value of Boolean B1 : " + b1);
         }
     }
