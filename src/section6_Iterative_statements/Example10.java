@@ -1,4 +1,4 @@
-package Section6_Iterative_statements;
+package section6_Iterative_statements;
 
 public class Example10 {
     public static void main(String[] args) {

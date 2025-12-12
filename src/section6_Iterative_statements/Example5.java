@@ -1,4 +1,4 @@
-package Section6_Iterative_statements;
+package section6_Iterative_statements;
 import java.util.Scanner;
 
 public class Example5 {
