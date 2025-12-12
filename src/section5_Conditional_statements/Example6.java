@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Example6 {
     public static void main(String[] args) {
-        //  Basic Ternary - (Adult or Minor)
+        //  Basic Ternary Operator - (Adult or Minor)
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
