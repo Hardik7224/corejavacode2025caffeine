@@ -4,8 +4,7 @@ public class Example14 {
     public static void main(String[] args) {
         int [] arr ={12, 35, 1, 10, 34};
         int largest=arr[0];
-        int secondLargest=-1;
-        // int secondLargest = Integer.MIN_VALUE ;  // if contain negative numbers
+        int secondLargest = Integer.MIN_VALUE ;  // if contain negative numbers
 
         // find largest
         for(int i=1;i<arr.length;i++){

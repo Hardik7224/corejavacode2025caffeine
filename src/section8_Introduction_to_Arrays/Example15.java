@@ -4,8 +4,7 @@ public class Example15 {
     public static void main(String[] args) {
         int [] arr ={12, 35, 1, 10, 34};
         int smallest=arr[0];
-        int secondSmallest=-1;
-        // int secondSmallest = Integer.MAX_VALUE ;  // if contain negative numbers
+        int secondSmallest = Integer.MAX_VALUE ;
 
         // find smallest
         for(int i=1;i<arr.length;i++){
