@@ -3,18 +3,18 @@ import java.util.Scanner;
 
 public class Example9 {
     public static void main(String[] args) {
-        // Check whether the year is leap year or not
+        // Voting Eligibility
+
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the year:");
-        int year = sc.nextInt();
+        System.out.println("Enter age:");
+        int age = sc.nextInt();
 
-        if((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)){
-            System.out.println(year + " is a leap year");
+        if (age >= 18) {
+            System.out.println("Eligible for voting");
+        } else {
+            System.out.println("Not eligible for voting");
         }
-        else {
-            System.out.println(year + " is not a leap year");
-        }
+
         sc.close();
-
     }
 }
