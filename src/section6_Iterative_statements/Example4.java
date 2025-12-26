@@ -14,5 +14,6 @@ public class Example4 {
             log++;
         }
         System.out.println("log2 value = " + log);
+        sc.close();
     }
 }

@@ -13,5 +13,6 @@ public class Example6 {
             fact *= i;
         }
         System.out.println("Factorial = " + fact);
+        sc.close();
     }
 }

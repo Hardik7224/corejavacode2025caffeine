@@ -12,5 +12,6 @@ public class Example6 {
 
         String result = (age >= 18) ? "Adult" : "Minor";
         System.out.println("Result: " + result);
+        sc.close();
     }
 }

@@ -12,5 +12,7 @@ public class Example9 {
             num = sc.nextInt();
         } while (num <= 0);
         System.out.println("You entered: " + num);
+
+        sc.close();
     }
 }

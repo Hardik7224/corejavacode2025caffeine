@@ -14,5 +14,6 @@ public class Example2 {
             count++;
         }
         System.out.println("Total digits = " + count);
+        sc.close();
     }
 }

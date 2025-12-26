@@ -17,5 +17,6 @@ public class Example7 {
             a = b;
             b = next;
         }
+        sc.close();
     }
 }

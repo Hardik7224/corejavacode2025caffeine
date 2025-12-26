@@ -13,5 +13,6 @@ public class Example5 {
             sum += i;
         }
         System.out.println("Sum = " + sum);
+        sc.close();
     }
 }

@@ -17,5 +17,7 @@ public class Example2 {
         }
 
         System.out.println("Program Finished.");
+
+        sc.close();
     }
 }

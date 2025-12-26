@@ -26,5 +26,6 @@ public class Example4 {
         else {
             System.out.println("You are a Senior Citizen");
         }
+        sc.close();
     }
 }

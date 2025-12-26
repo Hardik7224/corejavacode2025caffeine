@@ -15,5 +15,6 @@ public class Example3 {
             n = n / 10;
         }
         System.out.println("Reversed number = " + rev);
+        sc.close();
     }
 }

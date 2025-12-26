@@ -32,5 +32,6 @@ public class Example5 {
             default:
                 System.out.println("Not a valid week day");
         }
+        sc.close();
     }
 }
