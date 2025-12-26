@@ -15,5 +15,6 @@ public class Example7 {
                         : "Zero";
 
         System.out.println("Number is: " + result);
+        sc.close();
     }
 }
