@@ -6,7 +6,7 @@ public class Example11
     {
         // Type Conversion
 
-        // Example On Numerical Type
+        // 1.Example On Numerical Type
 
         // Example On Narrowing
         int num1 = 12;
@@ -22,7 +22,7 @@ public class Example11
         long num3 = num2;
         System.out.println(num3);
 
-        // Example On Decimal Type
+        // 2.Example On Decimal Type
 
         // Example On Narrowing
         double ldValue1 = 12.1234567890123456; // 16 Decimal Places
@@ -38,7 +38,7 @@ public class Example11
         double ldValue2 = lfValue2;
         System.out.println(ldValue2);
 
-        // Example On Character Type
+        // 3.Example On Character Type
 
         // Example On Narrowing
         int myNumber = 97;

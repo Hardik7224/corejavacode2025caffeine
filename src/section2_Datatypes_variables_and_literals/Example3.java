@@ -19,10 +19,5 @@ public class Example3
         b3 = 100;
         System.out.println(b3);
 
-        b3 = 100;
-        System.out.println(b3);
-
-
     }
 }
-

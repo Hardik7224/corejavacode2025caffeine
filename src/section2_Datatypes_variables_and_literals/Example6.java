@@ -1,5 +1,6 @@
 package section2_Datatypes_variables_and_literals;
-// Literals
+// Literals -> Literals are the constant values that are assigned to the variables.
+
 public class Example6
 {
     public static void main(String[] args)

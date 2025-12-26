@@ -1,4 +1,4 @@
-// Checking The Range And Size Of Data Type
+// Checking The Range And Size Of Data Type-Wrapper Class
 package section2_Datatypes_variables_and_literals;
 
 public class Example2 {

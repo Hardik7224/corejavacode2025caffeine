@@ -1,20 +1,24 @@
 package section8_Introduction_to_Arrays;
-import java.util.Arrays;
+
 public class Example6 {
-    public static void main(String[] args){
-        // Reversing array elements
-        int[] nums      = {1,2,3,4,5,6,7,8,9};
-        int[] revNums   = new int[nums.length];
-
-        int size = nums.length;
-
-        for(int i =0; i < revNums.length; i++)
-        {
-            revNums[i] = nums[size-1-i];
+    public static void main(String[] args) {
+        // Initializing and printing array
+        int[] arr = {2, 4, 5, 8, 10};
+        System.out.println("Array is:");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
+        System.out.println();
 
-        System.out.println("Array Elements After Reverse Copying");
-        System.out.print(Arrays.toString(revNums));
-
+        // Count even and odd elements in array
+        int even = 0, odd = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] % 2 == 0)
+                even++;
+            else
+                odd++;
+        }
+        System.out.println("Total Even elements: "+ even);
+        System.out.println("Total Odd elements: "+ odd);
     }
 }

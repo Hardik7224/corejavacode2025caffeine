@@ -1,5 +1,6 @@
 package section4_Scanner_class;
 import java.util.Scanner;
+//How to read boolean value from keyboard
 public class Example7 {
         public static void main(String[] args)
         {

@@ -4,6 +4,7 @@ public class Example10
 {
     public static void main(String[] args)
     {
+        // More Information on Character Data Type
         char c = 'A';
         System.out.println(c);
 
