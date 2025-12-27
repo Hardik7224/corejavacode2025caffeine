@@ -17,5 +17,6 @@ public class Example1 {
 
         float f= (float)a/b;
         System.out.println("Div : "+f);
+
     }
 }

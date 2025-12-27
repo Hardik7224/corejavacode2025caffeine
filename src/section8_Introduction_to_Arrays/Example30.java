@@ -5,7 +5,7 @@ public class Example30 {
         // Range Sum Query (Prefix Sum)
         int[] A = {3, 6, 2, 8, 9, 4};
 
-        // Step 1: Build prefix sum array
+        // Build prefix sum array
         int[] prefix = new int[A.length];
         prefix[0] = A[0];
 
