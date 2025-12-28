@@ -5,10 +5,10 @@ public class Example0 {
     public static void main(String[] args) {
         // LCM of two numbers
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter first number:");
+        System.out.print("Enter first number:");
         int a = sc.nextInt();
 
-        System.out.println("Enter second number:");
+        System.out.print("Enter second number:");
         int b = sc.nextInt();
 
         int max = (a > b) ? a : b;
