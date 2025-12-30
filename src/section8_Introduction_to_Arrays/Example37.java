@@ -1,15 +1,35 @@
 package section8_Introduction_to_Arrays;
 
+/*
+Equilibrium Index -> An equilibrium index is an index i in an array such that:
+                  -> Sum of elements to the left of i = Sum of elements to the right of i
+
+ Rules->  If entered array is:
+         Empty array → No equilibrium
+         Single element → Index 0 is equilibrium
+         All zeros → Every index is equilibrium
+*/
+
 public class Example37 {
     public static void main(String[] args) {
-        // 2D Array
-        int [][]A = {{1,3,5},{2,4,6},{7,9,8}};
+        // Equilibrium Index
+        int[] arr = {-7, 1, 5, 2, -4, 3, 0};
 
-        for(int i=0;i<3;i++){
-            for(int j=0;j<3;j++){
-                System.out.print(A[i][j]+" ");
+        int totalSum = 0;
+        for (int num : arr) {
+            totalSum += num;
+        }
+
+        int leftSum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            int rightSum = totalSum - leftSum - arr[i];
+
+            if (leftSum == rightSum) {
+                System.out.println("Equilibrium Index: " + i);
             }
-            System.out.println();
+
+            leftSum += arr[i];
         }
     }
 }

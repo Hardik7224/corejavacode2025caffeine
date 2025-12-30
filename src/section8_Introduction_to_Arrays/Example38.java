@@ -1,27 +1,25 @@
 package section8_Introduction_to_Arrays;
-import java.util.Scanner;
 
 public class Example38 {
     public static void main(String[] args) {
-        // Matrix using scanner
-        Scanner sc = new Scanner(System.in);
-        int[][] mat = new int[3][3];
+        // Remove duplicates from an array
+        int[] arr = {1, 1, 2, 2, 3, 4, 4};
 
-        // Input
-        System.out.println("Enter elements of 3x3 matrix:");
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
-                mat[i][j] = sc.nextInt();
+        int j = 0; // slow pointer
+
+        for (int i = 1; i < arr.length; i++) { // fast pointer
+            if (arr[i] != arr[j]) {
+                j++;
+                arr[j] = arr[i];
             }
         }
 
-        // Output
-        System.out.println("3x3 Matrix is:");
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
-                System.out.print(mat[i][j] + " ");
-            }
-            System.out.println();
+        int uniqueCount = j + 1;
+
+        System.out.println("Unique count: " + uniqueCount);
+        System.out.println("Array becomes:");
+        for (int i = 0; i < uniqueCount; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
 }
